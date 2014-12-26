@@ -72,7 +72,6 @@ hi def link gxType                          Type
 hi def link gxKeyword                       Keyword
 hi def link gxDeclaration                   Keyword
 hi def link gxStorage                       Special
-hi def link gxTypeParam                     Special
 hi def link gxStorageParam                  Special
 hi def link gxUnit                          Identifier
 hi def link gxFunction                      Function
