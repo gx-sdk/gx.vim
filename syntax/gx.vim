@@ -22,8 +22,7 @@ syn keyword gxStorage region                nextgroup=gxStorageParam
 syn keyword gxStorage ram
 syn keyword gxStorage rom
 
-syn keyword gxStorage align                 nextgroup=gxStorageParam
-syn keyword gxStorage frame                 nextgroup=gxStorageParam
+syn match gxStorage '@[a-z]*'               nextgroup=gxStorageParam
 
 syn keyword gxDeclaration fn                nextgroup=gxFunction
 syn keyword gxDeclaration const             nextgroup=gxVariable
