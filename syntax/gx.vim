@@ -46,8 +46,8 @@ syn keyword gxStatement repeat
 syn keyword gxStatement return
 syn keyword gxStatement while
 
-syn match gxNumber '\d\+'
-syn match gxNumber '[-+]\d\+'
+syn match gxNumber '\<\d\+\>'
+syn match gxNumber '\<[-+]\d\+\>'
 
 syn match gxUnit     '\s*[_0-9a-zA-Z]*'     contained
 syn match gxFunction '\s*[_0-9a-zA-Z]*'     contained
