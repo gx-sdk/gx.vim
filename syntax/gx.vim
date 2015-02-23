@@ -30,6 +30,7 @@ syn keyword gxDeclaration pub
 syn keyword gxDeclaration type              nextgroup=gxType
 syn keyword gxDeclaration unit              nextgroup=gxUnit
 syn keyword gxDeclaration var
+syn keyword gxDeclaration use
 
 syn keyword gxKeyword case
 syn keyword gxKeyword default
